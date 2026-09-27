@@ -1,0 +1,2782 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated_at": "2026-09-27T13:58:10+00:00",
+    "source_id": "wnc_events",
+    "feature_count": 99
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 7,
+        "occurrence_id": 7,
+        "source_record_id": "43120",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-09-28T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43120",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 6,
+        "occurrence_id": 6,
+        "source_record_id": "4755",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-09-28T10:30",
+        "end_at": "2026-09-28T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4755",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 8,
+        "occurrence_id": 8,
+        "source_record_id": "19887",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-09-28T14:00",
+        "end_at": "2026-09-28T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19887",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 9,
+        "occurrence_id": 9,
+        "source_record_id": "4914",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-09-29T10:00",
+        "end_at": "2026-09-29T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4914",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 10,
+        "occurrence_id": 10,
+        "source_record_id": "5073",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-09-30T10:00",
+        "end_at": "2026-09-30T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5073",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 11,
+        "occurrence_id": 11,
+        "source_record_id": "5223",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-10-01T10:00",
+        "end_at": "2026-10-01T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5223",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 12,
+        "occurrence_id": 12,
+        "source_record_id": "18582",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-10-01T14:00",
+        "end_at": "2026-10-01T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18582",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 13,
+        "occurrence_id": 13,
+        "source_record_id": "5685",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-10-02T10:00",
+        "end_at": "2026-10-02T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5685",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 14,
+        "occurrence_id": 14,
+        "source_record_id": "5373",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-10-02T11:00",
+        "end_at": "2026-10-02T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5373",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.892513,
+          52.051615
+        ]
+      },
+      "properties": {
+        "opportunity_id": 15,
+        "occurrence_id": 15,
+        "source_record_id": "20469",
+        "title": "Friday Crafts at Deanshanger Library",
+        "start_at": "2026-10-02T15:30",
+        "end_at": "2026-10-02T16:30",
+        "address": "Little London Deanshanger Milton Keynes MK19 6HT",
+        "postcode": "MK19 6HT",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/20469",
+        "location_id": 2,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 16,
+        "occurrence_id": 16,
+        "source_record_id": "31095",
+        "title": "Retro Gaming at Weston Favell Library",
+        "start_at": "2026-10-02T16:30",
+        "end_at": "2026-10-02T17:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/31095",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.904108,
+          52.326434
+        ]
+      },
+      "properties": {
+        "opportunity_id": 17,
+        "occurrence_id": 17,
+        "source_record_id": "30390",
+        "title": "Brixworth Country parkrun",
+        "start_at": "2026-10-03T08:00",
+        "end_at": "2026-10-03T10:00",
+        "address": "Northampton Road, Brixworth, Northampton NN6 9DG",
+        "postcode": "NN6 9DG",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/30390",
+        "location_id": 3,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15076,
+          52.02818
+        ]
+      },
+      "properties": {
+        "opportunity_id": 18,
+        "occurrence_id": 18,
+        "source_record_id": "41599",
+        "title": "Creation Club at Brackley Library",
+        "start_at": "2026-10-03T10:30",
+        "end_at": "2026-10-03T11:30",
+        "address": "Brackley Library (Library Plus) 21 Manor Road Brackley NN13 6AJ",
+        "postcode": "NN13 6AJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/41599",
+        "location_id": 4,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 20,
+        "occurrence_id": 20,
+        "source_record_id": "43121",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-10-05T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43121",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 19,
+        "occurrence_id": 19,
+        "source_record_id": "4758",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-10-05T10:30",
+        "end_at": "2026-10-05T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4758",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 21,
+        "occurrence_id": 21,
+        "source_record_id": "19890",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-10-05T14:00",
+        "end_at": "2026-10-05T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19890",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 22,
+        "occurrence_id": 22,
+        "source_record_id": "4917",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-10-06T10:00",
+        "end_at": "2026-10-06T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4917",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 23,
+        "occurrence_id": 23,
+        "source_record_id": "5076",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-10-07T10:00",
+        "end_at": "2026-10-07T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5076",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 24,
+        "occurrence_id": 24,
+        "source_record_id": "5226",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-10-08T10:00",
+        "end_at": "2026-10-08T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5226",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 25,
+        "occurrence_id": 25,
+        "source_record_id": "18585",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-10-08T14:00",
+        "end_at": "2026-10-08T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18585",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 26,
+        "occurrence_id": 26,
+        "source_record_id": "5688",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-10-09T10:00",
+        "end_at": "2026-10-09T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5688",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 27,
+        "occurrence_id": 27,
+        "source_record_id": "5376",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-10-09T11:00",
+        "end_at": "2026-10-09T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5376",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 28,
+        "occurrence_id": 28,
+        "source_record_id": "19983",
+        "title": "Gather and Grin (Craft Group) at Weston Favell Library",
+        "start_at": "2026-10-09T13:00",
+        "end_at": "2026-10-09T15:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19983",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.892513,
+          52.051615
+        ]
+      },
+      "properties": {
+        "opportunity_id": 29,
+        "occurrence_id": 29,
+        "source_record_id": "20472",
+        "title": "Friday Crafts at Deanshanger Library",
+        "start_at": "2026-10-09T15:30",
+        "end_at": "2026-10-09T16:30",
+        "address": "Little London Deanshanger Milton Keynes MK19 6HT",
+        "postcode": "MK19 6HT",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/20472",
+        "location_id": 2,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.904108,
+          52.326434
+        ]
+      },
+      "properties": {
+        "opportunity_id": 30,
+        "occurrence_id": 30,
+        "source_record_id": "30393",
+        "title": "Brixworth Country parkrun",
+        "start_at": "2026-10-10T08:00",
+        "end_at": "2026-10-10T10:00",
+        "address": "Northampton Road, Brixworth, Northampton NN6 9DG",
+        "postcode": "NN6 9DG",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/30393",
+        "location_id": 3,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15076,
+          52.02818
+        ]
+      },
+      "properties": {
+        "opportunity_id": 31,
+        "occurrence_id": 31,
+        "source_record_id": "41600",
+        "title": "Creation Club at Brackley Library",
+        "start_at": "2026-10-10T10:30",
+        "end_at": "2026-10-10T11:30",
+        "address": "Brackley Library (Library Plus) 21 Manor Road Brackley NN13 6AJ",
+        "postcode": "NN13 6AJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/41600",
+        "location_id": 4,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 33,
+        "occurrence_id": 33,
+        "source_record_id": "43122",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-10-12T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43122",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 32,
+        "occurrence_id": 32,
+        "source_record_id": "4761",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-10-12T10:30",
+        "end_at": "2026-10-12T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4761",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 34,
+        "occurrence_id": 34,
+        "source_record_id": "19893",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-10-12T14:00",
+        "end_at": "2026-10-12T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19893",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 35,
+        "occurrence_id": 35,
+        "source_record_id": "4920",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-10-13T10:00",
+        "end_at": "2026-10-13T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4920",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 36,
+        "occurrence_id": 36,
+        "source_record_id": "19947",
+        "title": "Bookclub for 11-16yo (School Years 7-11) at Weston Favell Library",
+        "start_at": "2026-10-14T08:00",
+        "end_at": "2026-10-14T08:15",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19947",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 37,
+        "occurrence_id": 37,
+        "source_record_id": "5079",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-10-14T10:00",
+        "end_at": "2026-10-14T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5079",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 38,
+        "occurrence_id": 38,
+        "source_record_id": "5229",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-10-15T10:00",
+        "end_at": "2026-10-15T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5229",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 39,
+        "occurrence_id": 39,
+        "source_record_id": "18588",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-10-15T14:00",
+        "end_at": "2026-10-15T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18588",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 40,
+        "occurrence_id": 40,
+        "source_record_id": "5691",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-10-16T10:00",
+        "end_at": "2026-10-16T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5691",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 41,
+        "occurrence_id": 41,
+        "source_record_id": "5379",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-10-16T11:00",
+        "end_at": "2026-10-16T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5379",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.892513,
+          52.051615
+        ]
+      },
+      "properties": {
+        "opportunity_id": 42,
+        "occurrence_id": 42,
+        "source_record_id": "20475",
+        "title": "Friday Crafts at Deanshanger Library",
+        "start_at": "2026-10-16T15:30",
+        "end_at": "2026-10-16T16:30",
+        "address": "Little London Deanshanger Milton Keynes MK19 6HT",
+        "postcode": "MK19 6HT",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/20475",
+        "location_id": 2,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.904108,
+          52.326434
+        ]
+      },
+      "properties": {
+        "opportunity_id": 43,
+        "occurrence_id": 43,
+        "source_record_id": "30396",
+        "title": "Brixworth Country parkrun",
+        "start_at": "2026-10-17T08:00",
+        "end_at": "2026-10-17T10:00",
+        "address": "Northampton Road, Brixworth, Northampton NN6 9DG",
+        "postcode": "NN6 9DG",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/30396",
+        "location_id": 3,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15076,
+          52.02818
+        ]
+      },
+      "properties": {
+        "opportunity_id": 44,
+        "occurrence_id": 44,
+        "source_record_id": "41601",
+        "title": "Creation Club at Brackley Library",
+        "start_at": "2026-10-17T10:30",
+        "end_at": "2026-10-17T11:30",
+        "address": "Brackley Library (Library Plus) 21 Manor Road Brackley NN13 6AJ",
+        "postcode": "NN13 6AJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/41601",
+        "location_id": 4,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 46,
+        "occurrence_id": 46,
+        "source_record_id": "43123",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-10-19T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43123",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 45,
+        "occurrence_id": 45,
+        "source_record_id": "4764",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-10-19T10:30",
+        "end_at": "2026-10-19T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4764",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 47,
+        "occurrence_id": 47,
+        "source_record_id": "19896",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-10-19T14:00",
+        "end_at": "2026-10-19T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19896",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 48,
+        "occurrence_id": 48,
+        "source_record_id": "4923",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-10-20T10:00",
+        "end_at": "2026-10-20T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4923",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 49,
+        "occurrence_id": 49,
+        "source_record_id": "5082",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-10-21T10:00",
+        "end_at": "2026-10-21T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5082",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 50,
+        "occurrence_id": 50,
+        "source_record_id": "5232",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-10-22T10:00",
+        "end_at": "2026-10-22T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5232",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 51,
+        "occurrence_id": 51,
+        "source_record_id": "18591",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-10-22T14:00",
+        "end_at": "2026-10-22T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18591",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 52,
+        "occurrence_id": 52,
+        "source_record_id": "5694",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-10-23T10:00",
+        "end_at": "2026-10-23T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5694",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 53,
+        "occurrence_id": 53,
+        "source_record_id": "5382",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-10-23T11:00",
+        "end_at": "2026-10-23T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5382",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.892513,
+          52.051615
+        ]
+      },
+      "properties": {
+        "opportunity_id": 54,
+        "occurrence_id": 54,
+        "source_record_id": "20478",
+        "title": "Friday Crafts at Deanshanger Library",
+        "start_at": "2026-10-23T15:30",
+        "end_at": "2026-10-23T16:30",
+        "address": "Little London Deanshanger Milton Keynes MK19 6HT",
+        "postcode": "MK19 6HT",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/20478",
+        "location_id": 2,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.904108,
+          52.326434
+        ]
+      },
+      "properties": {
+        "opportunity_id": 55,
+        "occurrence_id": 55,
+        "source_record_id": "30399",
+        "title": "Brixworth Country parkrun",
+        "start_at": "2026-10-24T08:00",
+        "end_at": "2026-10-24T10:00",
+        "address": "Northampton Road, Brixworth, Northampton NN6 9DG",
+        "postcode": "NN6 9DG",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/30399",
+        "location_id": 3,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15076,
+          52.02818
+        ]
+      },
+      "properties": {
+        "opportunity_id": 56,
+        "occurrence_id": 56,
+        "source_record_id": "41602",
+        "title": "Creation Club at Brackley Library",
+        "start_at": "2026-10-24T10:30",
+        "end_at": "2026-10-24T11:30",
+        "address": "Brackley Library (Library Plus) 21 Manor Road Brackley NN13 6AJ",
+        "postcode": "NN13 6AJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/41602",
+        "location_id": 4,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 58,
+        "occurrence_id": 58,
+        "source_record_id": "43124",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-10-26T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43124",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 57,
+        "occurrence_id": 57,
+        "source_record_id": "4767",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-10-26T10:30",
+        "end_at": "2026-10-26T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4767",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 59,
+        "occurrence_id": 59,
+        "source_record_id": "19899",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-10-26T14:00",
+        "end_at": "2026-10-26T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19899",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 60,
+        "occurrence_id": 60,
+        "source_record_id": "4926",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-10-27T10:00",
+        "end_at": "2026-10-27T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4926",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 61,
+        "occurrence_id": 61,
+        "source_record_id": "5085",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-10-28T10:00",
+        "end_at": "2026-10-28T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5085",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 62,
+        "occurrence_id": 62,
+        "source_record_id": "5235",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-10-29T10:00",
+        "end_at": "2026-10-29T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5235",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 63,
+        "occurrence_id": 63,
+        "source_record_id": "18594",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-10-29T14:00",
+        "end_at": "2026-10-29T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18594",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 64,
+        "occurrence_id": 64,
+        "source_record_id": "5697",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-10-30T10:00",
+        "end_at": "2026-10-30T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5697",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 65,
+        "occurrence_id": 65,
+        "source_record_id": "5385",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-10-30T11:00",
+        "end_at": "2026-10-30T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5385",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.892513,
+          52.051615
+        ]
+      },
+      "properties": {
+        "opportunity_id": 66,
+        "occurrence_id": 66,
+        "source_record_id": "20481",
+        "title": "Friday Crafts at Deanshanger Library",
+        "start_at": "2026-10-30T15:30",
+        "end_at": "2026-10-30T16:30",
+        "address": "Little London Deanshanger Milton Keynes MK19 6HT",
+        "postcode": "MK19 6HT",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/20481",
+        "location_id": 2,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.904108,
+          52.326434
+        ]
+      },
+      "properties": {
+        "opportunity_id": 67,
+        "occurrence_id": 67,
+        "source_record_id": "30402",
+        "title": "Brixworth Country parkrun",
+        "start_at": "2026-10-31T09:00",
+        "end_at": "2026-10-31T11:00",
+        "address": "Northampton Road, Brixworth, Northampton NN6 9DG",
+        "postcode": "NN6 9DG",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/30402",
+        "location_id": 3,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15076,
+          52.02818
+        ]
+      },
+      "properties": {
+        "opportunity_id": 68,
+        "occurrence_id": 68,
+        "source_record_id": "41603",
+        "title": "Creation Club at Brackley Library",
+        "start_at": "2026-10-31T10:30",
+        "end_at": "2026-10-31T11:30",
+        "address": "Brackley Library (Library Plus) 21 Manor Road Brackley NN13 6AJ",
+        "postcode": "NN13 6AJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/41603",
+        "location_id": 4,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 70,
+        "occurrence_id": 70,
+        "source_record_id": "43125",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-11-02T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43125",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 69,
+        "occurrence_id": 69,
+        "source_record_id": "4770",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-11-02T10:30",
+        "end_at": "2026-11-02T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4770",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 71,
+        "occurrence_id": 71,
+        "source_record_id": "19902",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-11-02T14:00",
+        "end_at": "2026-11-02T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19902",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 72,
+        "occurrence_id": 72,
+        "source_record_id": "4929",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-11-03T10:00",
+        "end_at": "2026-11-03T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4929",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 73,
+        "occurrence_id": 73,
+        "source_record_id": "5088",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-11-04T10:00",
+        "end_at": "2026-11-04T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5088",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 74,
+        "occurrence_id": 74,
+        "source_record_id": "5238",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-11-05T10:00",
+        "end_at": "2026-11-05T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5238",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 75,
+        "occurrence_id": 75,
+        "source_record_id": "18597",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-11-05T14:00",
+        "end_at": "2026-11-05T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18597",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 76,
+        "occurrence_id": 76,
+        "source_record_id": "5700",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-11-06T10:00",
+        "end_at": "2026-11-06T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5700",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 77,
+        "occurrence_id": 77,
+        "source_record_id": "5388",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-11-06T11:00",
+        "end_at": "2026-11-06T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5388",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.892513,
+          52.051615
+        ]
+      },
+      "properties": {
+        "opportunity_id": 78,
+        "occurrence_id": 78,
+        "source_record_id": "20484",
+        "title": "Friday Crafts at Deanshanger Library",
+        "start_at": "2026-11-06T15:30",
+        "end_at": "2026-11-06T16:30",
+        "address": "Little London Deanshanger Milton Keynes MK19 6HT",
+        "postcode": "MK19 6HT",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/20484",
+        "location_id": 2,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 79,
+        "occurrence_id": 79,
+        "source_record_id": "31098",
+        "title": "Retro Gaming at Weston Favell Library",
+        "start_at": "2026-11-06T16:30",
+        "end_at": "2026-11-06T17:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/31098",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.904108,
+          52.326434
+        ]
+      },
+      "properties": {
+        "opportunity_id": 80,
+        "occurrence_id": 80,
+        "source_record_id": "30405",
+        "title": "Brixworth Country parkrun",
+        "start_at": "2026-11-07T09:00",
+        "end_at": "2026-11-07T11:00",
+        "address": "Northampton Road, Brixworth, Northampton NN6 9DG",
+        "postcode": "NN6 9DG",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/30405",
+        "location_id": 3,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15076,
+          52.02818
+        ]
+      },
+      "properties": {
+        "opportunity_id": 81,
+        "occurrence_id": 81,
+        "source_record_id": "41604",
+        "title": "Creation Club at Brackley Library",
+        "start_at": "2026-11-07T10:30",
+        "end_at": "2026-11-07T11:30",
+        "address": "Brackley Library (Library Plus) 21 Manor Road Brackley NN13 6AJ",
+        "postcode": "NN13 6AJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/41604",
+        "location_id": 4,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 83,
+        "occurrence_id": 83,
+        "source_record_id": "43126",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-11-09T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43126",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 82,
+        "occurrence_id": 82,
+        "source_record_id": "4773",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-11-09T10:30",
+        "end_at": "2026-11-09T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4773",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 84,
+        "occurrence_id": 84,
+        "source_record_id": "19905",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-11-09T14:00",
+        "end_at": "2026-11-09T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19905",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 85,
+        "occurrence_id": 85,
+        "source_record_id": "4932",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-11-10T10:00",
+        "end_at": "2026-11-10T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4932",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 86,
+        "occurrence_id": 86,
+        "source_record_id": "19950",
+        "title": "Bookclub for 11-16yo (School Years 7-11) at Weston Favell Library",
+        "start_at": "2026-11-11T08:00",
+        "end_at": "2026-11-11T08:15",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19950",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 87,
+        "occurrence_id": 87,
+        "source_record_id": "5091",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-11-11T10:00",
+        "end_at": "2026-11-11T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5091",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 88,
+        "occurrence_id": 88,
+        "source_record_id": "5241",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-11-12T10:00",
+        "end_at": "2026-11-12T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5241",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 89,
+        "occurrence_id": 89,
+        "source_record_id": "18600",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-11-12T14:00",
+        "end_at": "2026-11-12T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18600",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 90,
+        "occurrence_id": 90,
+        "source_record_id": "5703",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-11-13T10:00",
+        "end_at": "2026-11-13T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5703",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 91,
+        "occurrence_id": 91,
+        "source_record_id": "5391",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-11-13T11:00",
+        "end_at": "2026-11-13T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5391",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 92,
+        "occurrence_id": 92,
+        "source_record_id": "19986",
+        "title": "Gather and Grin (Craft Group) at Weston Favell Library",
+        "start_at": "2026-11-13T13:00",
+        "end_at": "2026-11-13T15:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19986",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.892513,
+          52.051615
+        ]
+      },
+      "properties": {
+        "opportunity_id": 93,
+        "occurrence_id": 93,
+        "source_record_id": "20487",
+        "title": "Friday Crafts at Deanshanger Library",
+        "start_at": "2026-11-13T15:30",
+        "end_at": "2026-11-13T16:30",
+        "address": "Little London Deanshanger Milton Keynes MK19 6HT",
+        "postcode": "MK19 6HT",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/20487",
+        "location_id": 2,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.904108,
+          52.326434
+        ]
+      },
+      "properties": {
+        "opportunity_id": 94,
+        "occurrence_id": 94,
+        "source_record_id": "30408",
+        "title": "Brixworth Country parkrun",
+        "start_at": "2026-11-14T09:00",
+        "end_at": "2026-11-14T11:00",
+        "address": "Northampton Road, Brixworth, Northampton NN6 9DG",
+        "postcode": "NN6 9DG",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/30408",
+        "location_id": 3,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15076,
+          52.02818
+        ]
+      },
+      "properties": {
+        "opportunity_id": 95,
+        "occurrence_id": 95,
+        "source_record_id": "41605",
+        "title": "Creation Club at Brackley Library",
+        "start_at": "2026-11-14T10:30",
+        "end_at": "2026-11-14T11:30",
+        "address": "Brackley Library (Library Plus) 21 Manor Road Brackley NN13 6AJ",
+        "postcode": "NN13 6AJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/41605",
+        "location_id": 4,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.91518,
+          52.21571
+        ]
+      },
+      "properties": {
+        "opportunity_id": 97,
+        "occurrence_id": 97,
+        "source_record_id": "43127",
+        "title": "Dementia Sings Out weekly singing sessions",
+        "start_at": "2026-11-16T10:30",
+        "end_at": null,
+        "address": "10 Overslade Close Northampton NN4 0RZ",
+        "postcode": "NN4 0RZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/43127",
+        "location_id": 5,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 96,
+        "occurrence_id": 96,
+        "source_record_id": "4776",
+        "title": "Explore a Story at Weston Favell Library",
+        "start_at": "2026-11-16T10:30",
+        "end_at": "2026-11-16T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4776",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 98,
+        "occurrence_id": 98,
+        "source_record_id": "19908",
+        "title": "Knit and Natter (Craft Group) at Weston Favell Library",
+        "start_at": "2026-11-16T14:00",
+        "end_at": "2026-11-16T16:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/19908",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 99,
+        "occurrence_id": 99,
+        "source_record_id": "4935",
+        "title": "Little Ones at Weston Favell Library",
+        "start_at": "2026-11-17T10:00",
+        "end_at": "2026-11-17T11:00",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/4935",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 100,
+        "occurrence_id": 100,
+        "source_record_id": "5094",
+        "title": "Rhymetime (Wednesday) at Weston Favell Library",
+        "start_at": "2026-11-18T10:00",
+        "end_at": "2026-11-18T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5094",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 101,
+        "occurrence_id": 101,
+        "source_record_id": "5244",
+        "title": "Baby Bounce at Weston Favell Library",
+        "start_at": "2026-11-19T10:00",
+        "end_at": "2026-11-19T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5244",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.86178,
+          52.25366
+        ]
+      },
+      "properties": {
+        "opportunity_id": 102,
+        "occurrence_id": 102,
+        "source_record_id": "18603",
+        "title": "Thursday Club at Abington Community Library",
+        "start_at": "2026-11-19T14:00",
+        "end_at": "2026-11-19T16:00",
+        "address": "18 Lindsay Ave Northampton NN3 2SJ",
+        "postcode": "NN3 2SJ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/18603",
+        "location_id": 6,
+        "geo_precision": "address",
+        "geo_verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 103,
+        "occurrence_id": 103,
+        "source_record_id": "5706",
+        "title": "Rhymetime (Friday 2) at Weston Favell Library",
+        "start_at": "2026-11-20T10:00",
+        "end_at": "2026-11-20T10:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5706",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.83583,
+          52.25703
+        ]
+      },
+      "properties": {
+        "opportunity_id": 104,
+        "occurrence_id": 104,
+        "source_record_id": "5394",
+        "title": "Rhymetime (Friday 1) at Weston Favell Library",
+        "start_at": "2026-11-20T11:00",
+        "end_at": "2026-11-20T11:30",
+        "address": "Weston Favell Centre Northampton NN3 8JZ",
+        "postcode": "NN3 8JZ",
+        "booking_required": false,
+        "free_type": "explicit_free",
+        "classification": "GO",
+        "source_url": "https://www.westnorthants.gov.uk/events/5394",
+        "location_id": 1,
+        "geo_precision": "street",
+        "geo_verified": false
+      }
+    }
+  ]
+}
