@@ -97,6 +97,76 @@
         new mapboxgl.NavigationControl(),
         'top-right'
     );
+
+map.on('load', () => {
+
+    map.addSource('opportunities', {
+        type: 'geojson',
+        data: './opportunities.geojson'
+    });
+
+    map.addLayer({
+        id: 'opportunity-points',
+        type: 'circle',
+        source: 'opportunities',
+
+        paint: {
+            'circle-radius': 8,
+            'circle-stroke-width': 2,
+            'circle-stroke-color': '#ffffff'
+        }
+    });
+
+    map.on('click', 'opportunity-points', (event) => {
+
+        const feature = event.features[0];
+        const props = feature.properties;
+
+        const start = props.start_at
+            ? new Date(props.start_at).toLocaleString('en-GB')
+            : 'Time not available';
+
+        const booking = props.booking_required
+            ? 'Booking required'
+            : 'No booking requirement identified';
+
+        new mapboxgl.Popup()
+            .setLngLat(feature.geometry.coordinates)
+            .setHTML(`
+                <strong>${props.title}</strong>
+                <br><br>
+                ${start}
+                <br>
+                ${props.address}
+                <br><br>
+                ${booking}
+                <br><br>
+                <a href="${props.source_url}"
+                   target="_blank"
+                   rel="noopener">
+                    View original listing
+                </a>
+            `)
+            .addTo(map);
+    });
+
+    map.on(
+        'mouseenter',
+        'opportunity-points',
+        () => {
+            map.getCanvas().style.cursor = 'pointer';
+        }
+    );
+
+    map.on(
+        'mouseleave',
+        'opportunity-points',
+        () => {
+            map.getCanvas().style.cursor = '';
+        }
+    );
+});
+    
 </script>
 
 </body>
