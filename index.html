@@ -6,53 +6,60 @@
 
     <title>Free Stuff — Northamptonshire</title>
 
+    <link
+        href="https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css"
+        rel="stylesheet"
+    >
+
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js">
+    </script>
+
     <style>
         * {
             box-sizing: border-box;
         }
 
+        html,
         body {
             margin: 0;
+            width: 100%;
+            height: 100%;
             font-family: Arial, sans-serif;
-            background: #f5f5f5;
             color: #181818;
         }
 
-        header {
-            padding: 32px 24px;
-            background: white;
-            border-bottom: 1px solid #ddd;
+        body {
+            display: flex;
+            flex-direction: column;
         }
 
-        header div {
-            max-width: 1100px;
+        header {
+            background: white;
+            padding: 20px 24px;
+            border-bottom: 1px solid #ddd;
+            z-index: 2;
+        }
+
+        .header-inner {
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         h1 {
-            margin: 0 0 8px;
-            font-size: 32px;
+            margin: 0 0 4px;
+            font-size: 28px;
         }
 
-        p {
+        header p {
             margin: 0;
-            line-height: 1.5;
+            color: #555;
         }
 
-        main {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 24px;
-        }
-
-        .placeholder {
+        #map {
+            flex: 1;
+            width: 100%;
             min-height: 500px;
-            background: #ddd;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
         }
     </style>
 </head>
@@ -60,7 +67,7 @@
 <body>
 
 <header>
-    <div>
+    <div class="header-inner">
         <h1>Free Stuff</h1>
         <p>
             Find genuinely free things to do around Northamptonshire.
@@ -68,11 +75,29 @@
     </div>
 </header>
 
-<main>
-    <div class="placeholder">
-        Map loading here shortly…
-    </div>
-</main>
+<div id="map"></div>
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaGlkZGVubm9ydGhhbXB0b24iLCJhIjoiY211ZmIxNW00MDA3ODJ4cjZ4azMwdWc4diJ9.b6QQ2dWCEwxFUzsly5z-hw';
+
+    const map = new mapboxgl.Map({
+        container: 'map',
+
+        style: 'mapbox://styles/mapbox/streets-v12',
+
+        center: [
+            -0.895,
+            52.24
+        ],
+
+        zoom: 9
+    });
+
+    map.addControl(
+        new mapboxgl.NavigationControl(),
+        'top-right'
+    );
+</script>
 
 </body>
 </html>
