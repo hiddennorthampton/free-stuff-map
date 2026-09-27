@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Free Stuff — Northamptonshire</title>
 
@@ -61,6 +65,171 @@
             width: 100%;
             min-height: 500px;
         }
+
+        /*
+         * LOCATION MARKERS
+         */
+
+        .location-marker {
+            width: 42px;
+            height: 42px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 50%;
+
+            background: #111;
+            color: white;
+
+            border: 3px solid white;
+
+            font-weight: bold;
+            font-size: 14px;
+
+            cursor: pointer;
+
+            box-shadow:
+                0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .location-marker:hover {
+            transform: scale(1.08);
+        }
+
+        /*
+         * POPUP
+         */
+
+        .mapboxgl-popup {
+            max-width: 380px !important;
+        }
+
+        .mapboxgl-popup-content {
+            padding: 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .popup {
+            width: 340px;
+            max-width: 80vw;
+        }
+
+        .popup-header {
+            padding: 18px;
+
+            border-bottom: 1px solid #ddd;
+
+            background: #fafafa;
+        }
+
+        .popup-header h2 {
+            margin: 0 0 6px;
+            font-size: 18px;
+            line-height: 1.25;
+        }
+
+        .popup-address {
+            margin: 0 0 8px;
+
+            color: #666;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        .popup-count {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .event-list {
+            max-height: 390px;
+            overflow-y: auto;
+        }
+
+        .event {
+            padding: 15px 18px;
+
+            border-bottom: 1px solid #eee;
+        }
+
+        .event:last-child {
+            border-bottom: 0;
+        }
+
+        .event-date {
+            margin-bottom: 5px;
+
+            font-size: 12px;
+            font-weight: bold;
+
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+
+            color: #666;
+        }
+
+        .event-title {
+            margin-bottom: 5px;
+
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.35;
+        }
+
+        .event-time {
+            margin-bottom: 8px;
+
+            font-size: 13px;
+            color: #444;
+        }
+
+        .event-booking {
+            margin-bottom: 8px;
+
+            font-size: 12px;
+            color: #666;
+        }
+
+        .event a {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        /*
+         * MOBILE
+         */
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 15px 16px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            header p {
+                font-size: 14px;
+            }
+
+            .location-marker {
+                width: 38px;
+                height: 38px;
+                font-size: 13px;
+            }
+
+            .popup {
+                width: 280px;
+            }
+
+            .event-list {
+                max-height: 320px;
+            }
+        }
     </style>
 </head>
 
@@ -68,22 +237,36 @@
 
 <header>
     <div class="header-inner">
+
         <h1>Free Stuff</h1>
+
         <p>
             Find genuinely free things to do around Northamptonshire.
         </p>
+
     </div>
 </header>
 
 <div id="map"></div>
 
 <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaGlkZGVubm9ydGhhbXB0b24iLCJhIjoiY211ZmIxNW00MDA3ODJ4cjZ4azMwdWc4diJ9.b6QQ2dWCEwxFUzsly5z-hw';
+
+    /*
+     * ---------------------------------------------------------
+     * MAPBOX
+     * ---------------------------------------------------------
+     */
+
+    mapboxgl.accessToken =
+        'pk.eyJ1IjoiaGlkZGVubm9ydGhhbXB0b24iLCJhIjoiY211ZmIxNW00MDA3ODJ4cjZ4azMwdWc4diJ9.b6QQ2dWCEwxFUzsly5z-hw';
+
 
     const map = new mapboxgl.Map({
+
         container: 'map',
 
-        style: 'mapbox://styles/mapbox/streets-v12',
+        style:
+            'mapbox://styles/mapbox/streets-v12',
 
         center: [
             -0.895,
@@ -91,82 +274,460 @@
         ],
 
         zoom: 9
+
     });
+
 
     map.addControl(
         new mapboxgl.NavigationControl(),
         'top-right'
     );
 
-map.on('load', () => {
 
-    map.addSource('opportunities', {
-        type: 'geojson',
-        data: './opportunities.geojson'
-    });
+    /*
+     * ---------------------------------------------------------
+     * DATE / TIME HELPERS
+     * ---------------------------------------------------------
+     */
 
-    map.addLayer({
-        id: 'opportunity-points',
-        type: 'circle',
-        source: 'opportunities',
+    function parseDate(value) {
 
-        paint: {
-            'circle-radius': 8,
-            'circle-stroke-width': 2,
-            'circle-stroke-color': '#ffffff'
+        if (!value) {
+            return null;
         }
-    });
 
-    map.on('click', 'opportunity-points', (event) => {
+        return new Date(value);
 
-        const feature = event.features[0];
-        const props = feature.properties;
+    }
 
-        const start = props.start_at
-            ? new Date(props.start_at).toLocaleString('en-GB')
-            : 'Time not available';
 
-        const booking = props.booking_required
-            ? 'Booking required'
-            : 'No booking requirement identified';
+    function formatDate(value) {
 
-        new mapboxgl.Popup()
-            .setLngLat(feature.geometry.coordinates)
-            .setHTML(`
-                <strong>${props.title}</strong>
-                <br><br>
-                ${start}
-                <br>
-                ${props.address}
-                <br><br>
-                ${booking}
-                <br><br>
-                <a href="${props.source_url}"
-                   target="_blank"
-                   rel="noopener">
-                    View original listing
-                </a>
-            `)
-            .addTo(map);
-    });
+        const date = parseDate(value);
+
+        if (!date) {
+            return 'Date unavailable';
+        }
+
+        return new Intl.DateTimeFormat(
+            'en-GB',
+            {
+                weekday: 'short',
+                day: 'numeric',
+                month: 'short'
+            }
+        ).format(date);
+
+    }
+
+
+    function formatTime(value) {
+
+        const date = parseDate(value);
+
+        if (!date) {
+            return null;
+        }
+
+        return new Intl.DateTimeFormat(
+            'en-GB',
+            {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            }
+        ).format(date);
+
+    }
+
+
+    function formatTimeRange(
+        startValue,
+        endValue
+    ) {
+
+        const start =
+            formatTime(startValue);
+
+        const end =
+            formatTime(endValue);
+
+        if (!start) {
+            return 'Time unavailable';
+        }
+
+        if (!end) {
+            return start;
+        }
+
+        return `${start}–${end}`;
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * BASIC HTML ESCAPING
+     * ---------------------------------------------------------
+     *
+     * Our data comes from external source pages.
+     * Don't inject arbitrary source text directly into HTML.
+     */
+
+    function escapeHtml(value) {
+
+        if (
+            value === null ||
+            value === undefined
+        ) {
+            return '';
+        }
+
+        return String(value)
+            .replaceAll('&', '&amp;')
+            .replaceAll('<', '&lt;')
+            .replaceAll('>', '&gt;')
+            .replaceAll('"', '&quot;')
+            .replaceAll("'", '&#039;');
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * POPUP HTML
+     * ---------------------------------------------------------
+     */
+
+    function buildPopup(
+        location,
+        opportunities
+    ) {
+
+        const sorted =
+            [...opportunities].sort(
+                (a, b) => {
+
+                    const aTime =
+                        parseDate(
+                            a.properties.start_at
+                        );
+
+                    const bTime =
+                        parseDate(
+                            b.properties.start_at
+                        );
+
+                    return (
+                        (aTime?.getTime() || 0) -
+                        (bTime?.getTime() || 0)
+                    );
+
+                }
+            );
+
+
+        const eventHtml =
+            sorted.map(feature => {
+
+                const p =
+                    feature.properties;
+
+                const bookingText =
+                    p.booking_required
+                        ? 'Booking required'
+                        : '';
+
+                return `
+                    <div class="event">
+
+                        <div class="event-date">
+                            ${escapeHtml(
+                                formatDate(
+                                    p.start_at
+                                )
+                            )}
+                        </div>
+
+                        <div class="event-title">
+                            ${escapeHtml(
+                                p.title
+                            )}
+                        </div>
+
+                        <div class="event-time">
+                            ${escapeHtml(
+                                formatTimeRange(
+                                    p.start_at,
+                                    p.end_at
+                                )
+                            )}
+                        </div>
+
+                        ${
+                            bookingText
+                                ? `
+                                    <div class="event-booking">
+                                        ${bookingText}
+                                    </div>
+                                `
+                                : ''
+                        }
+
+                        <a
+                            href="${escapeHtml(
+                                p.source_url
+                            )}"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            View details →
+                        </a>
+
+                    </div>
+                `;
+
+            }).join('');
+
+
+        const count =
+            opportunities.length;
+
+
+        const thingWord =
+            count === 1
+                ? 'free thing'
+                : 'free things';
+
+
+        return `
+            <div class="popup">
+
+                <div class="popup-header">
+
+                    <h2>
+                        ${escapeHtml(
+                            location.address
+                        )}
+                    </h2>
+
+                    <div class="popup-address">
+                        ${escapeHtml(
+                            location.postcode
+                        )}
+                    </div>
+
+                    <div class="popup-count">
+                        ${count}
+                        ${thingWord}
+                        coming up
+                    </div>
+
+                </div>
+
+                <div class="event-list">
+                    ${eventHtml}
+                </div>
+
+            </div>
+        `;
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * LOAD ENGINE OUTPUT
+     * ---------------------------------------------------------
+     */
+
+    async function loadOpportunities() {
+
+        const response =
+            await fetch(
+                './opportunities.geojson'
+            );
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                `GeoJSON request failed: ${response.status}`
+            );
+
+        }
+
+
+        const geojson =
+            await response.json();
+
+
+        /*
+         * Group occurrence-level records
+         * by canonical location_id.
+         */
+
+        const groups =
+            new Map();
+
+
+        for (
+            const feature
+            of geojson.features
+        ) {
+
+            const p =
+                feature.properties;
+
+
+            const locationId =
+                String(
+                    p.location_id
+                );
+
+
+            if (
+                !groups.has(locationId)
+            ) {
+
+                groups.set(
+                    locationId,
+                    {
+                        location: {
+                            id:
+                                p.location_id,
+
+                            address:
+                                p.address ||
+                                'Location',
+
+                            postcode:
+                                p.postcode ||
+                                '',
+
+                            coordinates:
+                                feature
+                                    .geometry
+                                    .coordinates
+                        },
+
+                        opportunities: []
+                    }
+                );
+
+            }
+
+
+            groups
+                .get(locationId)
+                .opportunities
+                .push(feature);
+
+        }
+
+
+        /*
+         * Create one marker per location.
+         */
+
+        for (
+            const group
+            of groups.values()
+        ) {
+
+            const markerElement =
+                document.createElement(
+                    'div'
+                );
+
+
+            markerElement.className =
+                'location-marker';
+
+
+            markerElement.textContent =
+                group
+                    .opportunities
+                    .length;
+
+
+            const popup =
+                new mapboxgl.Popup({
+                    offset: 24,
+                    maxWidth: '380px'
+                });
+
+
+            markerElement
+                .addEventListener(
+                    'click',
+                    () => {
+
+                        popup
+                            .setLngLat(
+                                group
+                                    .location
+                                    .coordinates
+                            )
+                            .setHTML(
+                                buildPopup(
+                                    group.location,
+                                    group.opportunities
+                                )
+                            )
+                            .addTo(map);
+
+                    }
+                );
+
+
+            new mapboxgl.Marker({
+                element:
+                    markerElement,
+
+                anchor:
+                    'center'
+            })
+                .setLngLat(
+                    group
+                        .location
+                        .coordinates
+                )
+                .addTo(map);
+
+        }
+
+
+        console.log(
+            `Loaded ${geojson.features.length} opportunities across ${groups.size} locations.`
+        );
+
+    }
+
+
+    /*
+     * ---------------------------------------------------------
+     * START
+     * ---------------------------------------------------------
+     */
 
     map.on(
-        'mouseenter',
-        'opportunity-points',
+        'load',
         () => {
-            map.getCanvas().style.cursor = 'pointer';
+
+            loadOpportunities()
+                .catch(error => {
+
+                    console.error(
+                        'Unable to load opportunities:',
+                        error
+                    );
+
+                });
+
         }
     );
 
-    map.on(
-        'mouseleave',
-        'opportunity-points',
-        () => {
-            map.getCanvas().style.cursor = '';
-        }
-    );
-});
-    
 </script>
 
 </body>
